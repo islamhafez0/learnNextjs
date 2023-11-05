@@ -1,14 +1,14 @@
-import React from 'react'
-
+import React from "react";
+export const metadata = {
+  title: "single article",
+};
 const SinglePageId = (props) => {
-    console.log(props)
+  console.log(props);
   return (
     <section>
-        <h1>
-            {props.params.id}
-        </h1>
+      <h1>{props.params.id}</h1>
     </section>
-  )
-}
+  );
+};
 
-export default SinglePageId
+export default SinglePageId;

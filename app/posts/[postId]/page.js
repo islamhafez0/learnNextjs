@@ -1,6 +1,9 @@
 import React, { Suspense } from "react";
 import PostDetails from "@/app/components/PostDetails";
 import Loader from "./loading";
+export const metadata = {
+  title: "single post",
+};
 const PostDetailsPage = async (props) => {
   const postId = props.params.postId;
   return (
